@@ -1,0 +1,7 @@
+git bisect start
+# bad: [e60a2ec4434681a0e805bf49fad19e239c8dd152] data2测试
+git bisect bad e60a2ec4434681a0e805bf49fad19e239c8dd152
+# good: [956e963d77ab53dfd3ab39f2516d41bb4dc0eeb5] Setup
+git bisect good 956e963d77ab53dfd3ab39f2516d41bb4dc0eeb5
+# bad: [5ced94c38b00e08bd50f798a6ece3e099864f6f5] git commit --all
+git bisect bad 5ced94c38b00e08bd50f798a6ece3e099864f6f5
